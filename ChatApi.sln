@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApi", "ChatApi\ChatApi.csproj", "{0CA0DA87-C7E6-4B83-AABE-78B32B39D1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatModel", "ChatModel\ChatModel.csproj", "{144D31F2-DAFA-4017-96C2-9E0FACDEC619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatCommon", "ChatCommon\ChatCommon.csproj", "{02A332F5-A866-4954-B27F-271D60A1F33D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CA0DA87-C7E6-4B83-AABE-78B32B39D1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA0DA87-C7E6-4B83-AABE-78B32B39D1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA0DA87-C7E6-4B83-AABE-78B32B39D1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA0DA87-C7E6-4B83-AABE-78B32B39D1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144D31F2-DAFA-4017-96C2-9E0FACDEC619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144D31F2-DAFA-4017-96C2-9E0FACDEC619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144D31F2-DAFA-4017-96C2-9E0FACDEC619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144D31F2-DAFA-4017-96C2-9E0FACDEC619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A332F5-A866-4954-B27F-271D60A1F33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A332F5-A866-4954-B27F-271D60A1F33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A332F5-A866-4954-B27F-271D60A1F33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A332F5-A866-4954-B27F-271D60A1F33D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {446E59BD-1633-480F-BC02-FA6E81123350}
+	EndGlobalSection
+EndGlobal

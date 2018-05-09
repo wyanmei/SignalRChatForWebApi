@@ -1,0 +1,18 @@
+﻿ 
+ 工具->nuget包管理器->程序包管理器控制台
+
+1.Install-Package Microsoft.AspNet.SignalR
+2.Install-Package Microsoft.Owin.Cors
+3.新建Startup类，设置跨域
+			// 连接标识
+            app.Map("/signalr", map =>
+            {
+                 //跨域
+                map.UseCors(CorsOptions.AllowAll);
+                 //启动配置
+                 map.RunSignalR(new HubConfiguration { EnableJSONP = true });
+            });
+
+
+4.点击调试，启动服务
+\\
